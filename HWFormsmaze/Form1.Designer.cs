@@ -313,9 +313,9 @@
             label2.BackColor = Color.Yellow;
             label2.Location = new Point(12, 9);
             label2.Name = "label2";
-            label2.Size = new Size(57, 15);
+            label2.Size = new Size(63, 15);
             label2.TabIndex = 0;
-            label2.Text = "НАЧАЛО";
+            label2.Text = "ПОЧАТОК";
             // 
             // label1
             // 

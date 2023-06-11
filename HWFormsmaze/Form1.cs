@@ -75,7 +75,7 @@ namespace HWFormsmaze
                     else if (healthPoints == 95)
                     {
                         healthPoints += 5;
-                        
+
                     }
                     else
                     {
