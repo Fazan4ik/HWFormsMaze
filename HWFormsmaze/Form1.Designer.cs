@@ -182,7 +182,7 @@
             // labelCoinText
             // 
             labelCoinText.AutoSize = true;
-            labelCoinText.Location = new Point(143, 9);
+            labelCoinText.Location = new Point(125, 9);
             labelCoinText.Name = "labelCoinText";
             labelCoinText.Size = new Size(49, 15);
             labelCoinText.TabIndex = 15;
@@ -191,7 +191,7 @@
             // labelHP
             // 
             labelHP.AutoSize = true;
-            labelHP.Location = new Point(75, 9);
+            labelHP.Location = new Point(49, 9);
             labelHP.Name = "labelHP";
             labelHP.Size = new Size(62, 15);
             labelHP.TabIndex = 14;
@@ -313,9 +313,9 @@
             label2.BackColor = Color.Yellow;
             label2.Location = new Point(12, 9);
             label2.Name = "label2";
-            label2.Size = new Size(63, 15);
+            label2.Size = new Size(31, 15);
             label2.TabIndex = 0;
-            label2.Text = "ПОЧАТОК";
+            label2.Text = "Start";
             // 
             // label1
             // 

@@ -70,7 +70,7 @@ namespace HWFormsmaze
                 {
                     if (healthPoints >= 100)
                     {
-                        MessageBox.Show("В вас максимально хп!");
+                        MessageBox.Show("You have max HP!");
                     }
                     else if (healthPoints == 95)
                     {
@@ -92,7 +92,7 @@ namespace HWFormsmaze
                 healthPoints -= 5;
                 if (healthPoints <= 0)
                 {
-                    MessageBox.Show("Ви програли!");
+                    MessageBox.Show("You lose, end hp!");
                     Close();
                 }
                 else
@@ -105,7 +105,7 @@ namespace HWFormsmaze
 
             if (collectedCoins == 7)
             {
-                MessageBox.Show("Вітаємо, ви перемогли!");
+                MessageBox.Show("You win!!!");
                 Close();
             }
             return base.ProcessCmdKey(ref msg, keyData);
